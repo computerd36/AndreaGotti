@@ -1,0 +1,207 @@
+{
+  "works": [
+    {
+      "title": "Portraits",
+      "image": "src/assets/images/projects/portraits/portrait_enrico_casini_2014.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "1996 - now",
+      "artworks": [
+        {
+          "title": "Enrico Casini",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/portraits/portrait_enrico_casini_2014.jpg",
+          "imagealt": "Portrait of Enrico Casini",
+          "date": "2014"
+        },
+        {
+          "title": "Dominic Miller",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/portraits/portrait_dominic_miller_2014.jpg",
+          "imagealt": "Portrait of Dominic Miller",
+          "date": "2014"
+        },
+        {
+          "title": "Karsten Greve",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/portraits/portrait_karsten_greve_2016.jpg",
+          "imagealt": "Portrait of Karsten Greve",
+          "date": "2016"
+        }
+      ]
+    },
+    {
+      "title": "Great Wall of China",
+      "image": "src/assets/images/projects/greatwallofchina/greatwallofchina_2012.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "2009 - 2019",
+      "artworks": [
+        {
+          "title": "Grand Piano",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        },
+        {
+          "title": "Grand Piano 2",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        }
+      ]
+    },
+    {
+      "title": "Billiard",
+      "image": "src/assets/images/projects/billiard/billiard_model_2008.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "Sep 23",
+      "artworks": [
+        {
+          "title": "Great Wall of China",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        },
+        {
+          "title": "Grand Piano 2",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        }
+      ]
+    },
+    {
+      "title": "Grand Piano",
+      "image": "src/assets/images/projects/piano/piano_2023.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "Sep 23",
+      "artworks": [
+        {
+          "title": "Grand Piano",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        },
+        {
+          "title": "Grand Piano 2",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        }
+      ]
+    },
+    {
+      "title": "Amalfi",
+      "image": "src/assets/images/projects/piano/piano_2023.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "Sep 23",
+      "artworks": [
+        {
+          "title": "Grand Piano",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        },
+        {
+          "title": "Grand Piano 2",
+          "size": "50cm x 120cm",
+          "description": "",
+          "image": "src/assets/images/projects/piano/piano_2023.jpg",
+          "imagealt": "Drawing of a piano",
+          "date": "Sep 23"
+        }
+      ]
+    }
+    
+  ],
+  "publications": [
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/1.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "GOTTI, Andrea Gotti 2001",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/2.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-2",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/3.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/4.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/5.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/6.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/6.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/7.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/8.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    }
+  ]
+}

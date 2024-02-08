@@ -1,0 +1,446 @@
+{
+  "works": [
+    {
+      "title": "Portraits",
+      "image": "src/assets/images/projects/portraits/2016_portrait_karstengreve_oilonlinen41,5x45.jpeg",
+      "imagealt": "Showing the cover of the project",
+      "date": "2003 - 2016",
+      "artworks": [
+        {
+          "title": "Karsten Greve",
+          "size": "41,5cm x 45cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/portraits/2016_portrait_karstengreve_oilonlinen41,5x45.jpeg",
+          "imagealt": "Portrait of Karsten Greve",
+          "date": "2016"
+        },
+        {
+          "title": "Dominic Miller",
+          "size": "60cm x 80cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/portraits/2014_portrait_dominicmiller_oiloncanvas_60x80.jpg",
+          "imagealt": "Portrait of Dominic Miller",
+          "date": "2014"
+        },
+        {
+          "title": "Wang Ching Song",
+          "size": "80cm x 100cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/portraits/2008_wangchingsong_oil_on_canvas_80x100.jpg",
+          "imagealt": "Portrait of Wang Ching Song",
+          "date": "2008"
+        },
+        {
+          "title": "3rd Study for the Innocenzo X",
+          "size": "180cm x 160 cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/portraits/2003_3rdstudyfortheInnocenzoX_oilonlinen_180x160.jpg",
+          "imagealt": "Portrait of 3rd Study for the Innocenzo X",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "title": "Japanese Landscape & Tempel",
+      "image": "src/assets/images/projects/japanese/2015_japanese_chinesischerSpiegel1_oilonlinen_200x240.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "2015 - 2021",
+      "artworks": [
+        {
+          "title": "Chinesischer Spiegel 2",
+          "size": "21cm x 29cm",
+          "description": "Drawing",
+          "image": "src/assets/images/projects/japanese/2021_japanese_chinesischerSpiegel2_drawing_21x29.jpeg",
+          "imagealt": "Drawing of a mirror",
+          "date": "2021"
+        },
+        {
+          "title": "Koyasan",
+          "size": "30cm x 42cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/japanese/2020_japanese_koyasan_pastelonpaper30x42.jpg",
+          "imagealt": "Drawing of a Koyasan",
+          "date": "2020"
+        },
+        {
+          "title": "Chinese Landscape",
+          "size": "21cm x 29,7cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/japanese/2020_japanese_chineseLandscape_pastelonpaper21x29,7.jpg",
+          "imagealt": "Drawing of a chinese landscape",
+          "date": "2020"
+        },
+        {
+          "title": "Japanese Room",
+          "size": "160cm x 170cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/japanese/2018_japanese_japaneseRoom_oiloncanvas160x170.jpg",
+          "imagealt": "Drawing of a japanese room",
+          "date": "2018"
+        },
+        {
+          "title": "Japanese Landscape",
+          "size": "30cm x 42cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/japanese/2016_japanese_japaneseLandscape_pastelonpaper30x42.jpg",
+          "imagealt": "Drawing of a japanese landscape",
+          "date": "2016"
+        },
+        {
+          "title": "Japanese Interior",
+          "size": "200cm x 360cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/japanese/2015_japanese_interior_oilonlinen200x360.jpg",
+          "imagealt": "Drawing of a japanese interior",
+          "date": "2015"
+        },
+        {
+          "title": "Chinesischer Spiegel 1",
+          "size": "200cm x 240cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/japanese/2015_japanese_chinesischerSpiegel1_oilonlinen_200x240.jpg",
+          "imagealt": "Drawing of a chinese mirror",
+          "date": "2015"
+        }
+      ]
+    },
+    {
+      "title": "Billiard",
+      "image": "src/assets/images/projects/billiard/2006_billiard_concept7SequentialGesture_oiloncanvas_80x100.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "2000 - 2014",
+      "artworks": [
+        {
+          "title": "Where Painting Meets Design",
+          "size": "60cm x 90cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2014_billiard_WherePaintingMeetsDesign_oiloncanvas_60x90.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2014"
+        },
+        {
+          "title": "Billiard 7",
+          "size": "60cm x 80cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2013_billiard_billiard7_oiloncanvas_60x80.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2013"
+        },
+        {
+          "title": "Sketch 278",
+          "size": "22cm x 30cm",
+          "description": "Drawing",
+          "image": "src/assets/images/projects/billiard/2012_billiard_sketch278_drawing_22x30.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2012"
+        },
+        {
+          "title": "Sketch 278",
+          "size": "",
+          "description": "3D Model",
+          "image": "src/assets/images/projects/billiard/2008_billiard_WherePaintingMeetsDesign_3dmodel.jpg",
+          "imagealt": "3D Model of a billiard table",
+          "date": "2008"
+        },
+        {
+          "title": "Concept 7 Sequential Gesture",
+          "size": "80cm x 100cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2006_billiard_concept7SequentialGesture_oiloncanvas_80x100.jpg",
+          "imagealt": "Canvas of a billiard table",
+          "date": "2006"
+        },
+        {
+          "title": "Where Painting Meets Design",
+          "size": "80cm x 100cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/billiard/2005_billiard_WherePaintingMeetsDesign_oilonlinen_80x100.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2005"
+        },
+        {
+          "title": "Figura 7",
+          "size": "80cm x 100cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2005_billiard_Figura7_oiloncanvas_40x40.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2005"
+        },
+        {
+          "title": "Figura 5",
+          "size": "70cm x 90cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2005_billiard_Figura5_oiloncanvas_70x90.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2005"
+        },
+        {
+          "title": "Billiard Table",
+          "size": "100cm x 130cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2005_billiard_billiard_oiloncanvas_100x130.jpeg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2005"
+        },
+        {
+          "title": "Billiard Table",
+          "size": "270cm x 200cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/billiard/2002_billiard_billiard_oiloncanvas_270x200.jpg",
+          "imagealt": "Painting of a billiard table",
+          "date": "2002"
+        },
+        {
+          "title": "Inner Mongolia",
+          "size": "35mm",
+          "description": "Film Photograph",
+          "image": "src/assets/images/projects/billiard/2000_billiard_innerMongolia_35mmFilmPhotograph.jpg",
+          "imagealt": "Film photograph of a billiard table",
+          "date": "2000"
+        },
+        {
+          "title": "Datong China",
+          "size": "35mm",
+          "description": "Film Photograph",
+          "image": "src/assets/images/projects/billiard/2000_billiard_datongChina_35mmFilmPhotograph.jpg",
+          "imagealt": "Film photograph of a billiard table",
+          "date": "2000"
+        }
+      ]
+    },
+    {
+      "title": "Grand Piano 1",
+      "image": "src/assets/images/projects/grandpiano1/2011_grandpiano_grandPiano11_oilonlinen_200x240.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "2009 - 2024",
+      "artworks": [
+        {
+          "title": "Grand Piano",
+          "size": "21cm x 27.5cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/grandpiano1/2024_grandpiano_sketch_pastelonpaper_21x27,5.jpeg",
+          "imagealt": "Painting of a piano",
+          "date": "2024"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "21cm x 29.7cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/grandpiano1/2024_grandpiano_sketch2_pastelonpaper_21x29,7.jpeg",
+          "imagealt": "Painting of a piano",
+          "date": "2024"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "21cm x 27.5cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/grandpiano1/2024_grandpiano_sketch3_pastelonpaper_21x27,5.jpeg",
+          "imagealt": "Painting of a piano",
+          "date": "2024"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "21cm x 27.5cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/grandpiano1/2023_grandpiano_sketch12_pastelonpaper_21x27,5.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2023"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "21cm x 27.5cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/grandpiano1/2023_grandpiano_sketch_pastelonpaper_21x27,5.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2023"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "21cm x 27.5cm",
+          "description": "Pastel on paper",
+          "image": "src/assets/images/projects/grandpiano1/2013_grandpiano_sketch_pastelonpaper_21x27,5.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2013"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "200cm x 240cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/grandpiano1/2011_grandpiano_grandPiano11_oilonlinen_200x240.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2011"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "200cm x 240cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/grandpiano1/2009_grandpiano_grandPiano6_oilonlinen_200x240.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2009"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "200cm x 230cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/grandpiano1/2009_grandpiano_grandPiano_oilonlinen_200x230.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2009"
+        },
+        {
+          "title": "Grand Piano",
+          "size": "200cm x 240cm",
+          "description": "Oil on linen",
+          "image": "src/assets/images/projects/grandpiano1/2009_grandpiano_grandPiano_oilonlinen_200x240.jpg",
+          "imagealt": "Painting of a piano",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "title": "Great Wall of China",
+      "image": "src/assets/images/projects/greatwallofchina/2013_greatwallofchina_77_oiloncanvas_100x80.jpg",
+      "imagealt": "Showing the cover of the project",
+      "date": "2007 - 2018",
+      "artworks": [
+        {
+          "title": "Great Wall of China G2",
+          "size": "80cm x 100cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2018_greatwallofchina_G2_oiloncanvas_80x100.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2018"
+        },
+        {
+          "title": "Great Wall of China HT",
+          "size": "40cm x 40cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2015_greatwallofchina_HT_oiloncanvas40x40.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2015"
+        },
+        {
+          "title": "Great Wall of China 77",
+          "size": "40cm x 40cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2013_greatwallofchina_77_oiloncanvas_100x80.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2013"
+        },
+        {
+          "title": "Great Wall of China X",
+          "size": "70cm x 80cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2009_greatwallofchina_X_oiloncanvas_70x80.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2009"
+        },
+        {
+          "title": "Great Wall of China Chang Chen 3",
+          "size": "50cm x 60cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2009_greatwallofchina_changChen3_oiloncanvas_50x60.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2009"
+        },
+        {
+          "title": "Great Wall of China 5",
+          "size": "30cm x 30cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2008_greatwallofchina_5_oiloncanvas_30x30.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2008"
+        },
+        {
+          "title": "Great Wall of China 3",
+          "size": "30cm x 30cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2008_greatwallofchina_3_oiloncanvas_30x30.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2008"
+        },
+        {
+          "title": "Great Wall of China Landscape",
+          "size": "140cm x 110cm",
+          "description": "Oil on canvas",
+          "image": "src/assets/images/projects/greatwallofchina/2007_greatwallofchina_landscape_oiloncanvas_140x110.jpg",
+          "imagealt": "Painting of the Great Wall of China",
+          "date": "2007"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/1.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "GOTTI, Andrea Gotti 2001",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/2.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-2",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/3.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/4.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/5.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/6.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/6.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/7.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    },
+    {
+      "title": "Andrea Gotti dipinti",
+      "description": "Treviso, Casa dei Carraresi",
+      "image": "src/assets/images/publications/8.jpg",
+      "imagealt": "Showing the cover of the publication",
+      "isbn": "88-87582-18-1",
+      "date": "1999"
+    }
+  ]
+}
