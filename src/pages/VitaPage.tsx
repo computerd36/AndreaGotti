@@ -83,68 +83,71 @@ export function VitaPage(props: IVitaPageProps) {
           <li>Galleria Paolo Tonin, Turin, Italy</li>
         </ul>
 
-<br />
-<br />
-<br />
+        <br />
+        <br />
+        <br />
 
-        <h1>Group Exhibitions</h1>
+        <h1>Selected Group Exhibitions</h1>
         <ul>
-          <p>2013</p>
-          <li>Museo Epper, Ascona, Switzerland</li>
+          <p>2014</p>
+          <li>"Attorno a Vermeer", Palazzo Fava, Bologna, Italy</li>
         </ul>
         <ul>
-          <p>2009</p>
-          <li>Galerie Tammen, Berlin, Germany</li>
+          <p>2008 - 2009</p>
+          <li>"Map Games: Dynamics of Change", Art Project, Beijing</li>
+          <li>Birmingham Museum and Art Gallery, UK (2009)</li>
+          <li>Terni International Center for Contemporary Art, Ex Opificio Siri (CAos), Italy (2009)</li>
+          <li>Curators: Feng Boyi, Plus offiCina (with Ai Weiwei)</li>
         </ul>
         <ul>
           <p>2008</p>
-          <li>Officina ltd., Beijing, China</li>
+          <li>"Arnaldo Pomodoro Foundation Prize", Arnaldo Pomodoro Foundation, Milan, Italy</li>
+        </ul>
+        <ul>
+          <p>2007</p>
+          <li>"Animamix Biennial: From Modernity to Eternity", MoCA Shanghai</li>
         </ul>
         <ul>
           <p>2006</p>
-          <li>Beijing Tokyo Art Project Gallery, Multimedia Installation with FM3 Group, Beijing, China</li>
+          <li>"Western Art", Tokyo Gallery, Tokyo, Japan</li>
+          <li>"Compagnia del Disegno" Art Gallery, Milan, Italy</li>
         </ul>
         <ul>
           <p>2005</p>
-          <li>Galleria Paolo Tonin Arte Contemporanea, Turin, Italy</li>
-        </ul>
-        <ul>
-          <p>2004</p>
-          <li>Galeria Monumental, Lisbon, Portugal</li>
-        </ul>
-        <ul>
-          <p>2003</p>
-          <li>Galeria Luis Gurriaran, Madrid, Spain</li>
-          <li>Galleria Compagnia del Disegno, Milan, Italy</li>
-          <li>Galerie 26, Oisterwijk, The Netherlands</li>
+          <li>"BJ Beijing Biennale 2005", Beijing, China</li>
         </ul>
         <ul>
           <p>2002</p>
-          <li>Ex Municipio, Castagnola, Lugano, Switzerland</li>
-          <li>Galerie Carzaniga+Ueker, Basel, Switzerland</li>
-        </ul>
-        <ul>
-          <p>2001</p>
-          <li>Galeria Luis Gurriaran, Madrid, Spain</li>
-          <li>Contemporary Art Museum, Su Logu de S'iscultura, Tortolì, Nuoro, Italy</li>
-          <li>Time in Jazz, Museo del Vino, Berchidda, Sassari, Italy</li>
-          <li>Gotti, Opere 1991-2000, Palazzo Sarcinelli, Conegliano, Treviso, Italy</li>
-          <li>Galerie Apicella, Cologne, Germany</li>
+          <li>"Palazzo Sarcinelli 18 anni di attività", Conegliano, Treviso, Italy (Catalog "Linea D'Ombra", Curator: Marco Goldin)</li>
         </ul>
         <ul>
           <p>1999</p>
-          <li>Opere 1991-1999, Casa dei Carraresi, Treviso, Italy</li>
+          <li>"Sulla Pittura: Artisti Italiani Sotto i Quarant'anni", Curator: Marco Goldin, Palazzo Sarcinelli, Conegliano, Treviso, Italy</li>
         </ul>
         <ul>
-          <p>1995</p>
-          <li>Galleria La Polena, Genoa, Italy</li>
+          <p>1998</p>
+          <li>"Una Donazione per un Nuovo Museo", Curator: Marco Goldin, Palazzo Sarcinelli, Conegliano, Treviso, Italy</li>
         </ul>
         <ul>
-          <p>1993</p>
-          <li>Galleria Paolo Tonin, Turin, Italy</li>
+          <p>1997</p>
+          <li>"Pitture", Casa dei Carraresi, Treviso, Italy (Curator: Marco Goldin)</li>
+          <li>"Spazio Lanzi-Galleria delle Arti", Bologna, Italy</li>
+          <li>Galleria d'Arte Moderna, Catania, Italy</li>
+        </ul>
+        <ul>
+          <p>1994</p>
+          <li>"Art is Life", Project '93-'94, Museo dell'Automobile, Turin, Italy; Pmmk Museum, Gent, Belgium; Ministere des Affaires Culturelle, Le Tutesall, Luxembourg; Sotheby's, London, England; Sotheby's Milano, Italy</li>
+          <li>Galleria Eva Menzio, Turin, Italy</li>
+          <li>Galleria Continua, San Gimignano, Siena, Italy</li>
+          <li>Galleria Polhammer, Styria, Austria</li>
+          <li>"Equinozio D'Autunno", Castello di Rivara, Turin, Italy</li>
+        </ul>
+        <ul>
+          <p>1984</p>
+          <li>Fondazione Bevilacqua La Masa, Venice, Italy</li>
         </ul>
       </div>
 
-    </div>
+    </div >
   );
 }
