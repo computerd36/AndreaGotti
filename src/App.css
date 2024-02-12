@@ -249,6 +249,13 @@ a:not(.navMenuContainer a) {
   border: 2px solid var(--bg2-color);
 }
 
+.imageBoxImageContainer .placeholderImage {
+  grid-row: 1;
+  grid-column: 1;
+  border: 2px solid var(--bg2-color);
+
+}
+
 .imageBoxLabel {
   width: 100%;
   display: flex;
@@ -433,4 +440,16 @@ a:not(.navMenuContainer a) {
   padding: 0;
   margin: 0.5rem 0 0 0;
   font-weight: 400;
+}
+
+
+/*Placeholder Image*/
+.placeholderImage {
+  width: 400px;
+  height: 300px;
+  background-color: var(--bg2-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }

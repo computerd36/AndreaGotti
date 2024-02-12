@@ -2,7 +2,6 @@ import { Publication } from '../types';
 import './PublicationCard.css';
 import { AiFillInfoCircle } from "react-icons/ai";
 import { TiArrowBack } from "react-icons/ti";
-import { FaCopy } from "react-icons/fa";
 import { CopyISBNButton } from './CopyISBNButton';
 
 import { PuffLoader } from 'react-spinners';
@@ -25,7 +24,8 @@ export function PublicationCard(props: IPublicationCardProps) {
             <div className="publicationCard-inner">
                 <div className="publicationCard-front" onClick={props.onFlip}>
                     {!isImageLoaded && <PuffLoader color={'black'} loading={!isImageLoaded} />}
-                    <img src={props.publication.image} alt={props.publication.imagealt} style={{ display: isImageLoaded ? 'block' : 'none' }} onLoad={() => setImageLoaded(true)} />                    <button className='publicationCardButton'><AiFillInfoCircle /></button>
+                    <img src={props.publication.image} alt={props.publication.imagealt} style={{ display: isImageLoaded ? 'block' : 'none' }} onLoad={() => setImageLoaded(true)} />
+                    <button className='publicationCardButton'><AiFillInfoCircle /></button>
                 </div>
                 <div className="publicationCard-back">
                     <div className="publicationCard-info">
