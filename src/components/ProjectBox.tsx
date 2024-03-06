@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Project } from '../types';
 import ProjectGalleryModal from './ProjectGalleryModal';
 import { PlaceholderImage } from './PlaceholderImage';
+import { PlaceholderProject } from './PlaceholderProject';
 
 
 export interface IProjectBoxProps {
@@ -13,7 +14,7 @@ export function ProjectBox(props: IProjectBoxProps) {
 
     return (
         <div className='projectBox'>
-            {!isImageLoaded && <PlaceholderImage isLoading={!isImageLoaded} />}
+            {!isImageLoaded && <PlaceholderProject isLoading={!isImageLoaded} />}
             <img
                 src={props.project.image}
                 alt={props.project.imagealt}

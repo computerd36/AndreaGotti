@@ -451,5 +451,13 @@ a:not(.navMenuContainer a) {
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.placeholderProject {
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10%;
 }
