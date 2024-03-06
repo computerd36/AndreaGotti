@@ -46,19 +46,19 @@ export function EmblaCarouselProject(props: IEmblaCarouselProjectProps) {
         [emblaApi]
     )
 
-    const handleKeyPress = (e: KeyboardEvent) => {
-        if (e.key === 'ArrowLeft' && !prevBtnDisabled) {
-            scrollPrev();
-        } else if (e.key === 'ArrowRight' && !nextBtnDisabled) {
-            scrollNext();
-        }
-    };
-    useEffect(() => {
-        document.addEventListener('keydown', handleKeyPress);
-        return () => {
-            document.removeEventListener('keydown', handleKeyPress);
-        };
-    }, [prevBtnDisabled, nextBtnDisabled, scrollPrev, scrollNext]);
+    // const handleKeyPress = (e: KeyboardEvent) => {
+    //     if (e.key === 'ArrowLeft' && !prevBtnDisabled) {
+    //         scrollPrev();
+    //     } else if (e.key === 'ArrowRight' && !nextBtnDisabled) {
+    //         scrollNext();
+    //     }
+    // };
+    // useEffect(() => {
+    //     document.addEventListener('keydown', handleKeyPress);
+    //     return () => {
+    //         document.removeEventListener('keydown', handleKeyPress);
+    //     };
+    // }, [prevBtnDisabled, nextBtnDisabled, scrollPrev, scrollNext]);
 
 
     useEffect(() => {

@@ -13,7 +13,7 @@ export function CopyISBNButton(props: ICopyISBNButtonProps) {
 
     return (
         <button className="copy" onClick={copyISBN}>
-            <span data-text-end="Copied!" data-text-initial="Copy ISBN" className="tooltip"></span>
+            <span data-text-end="Copied!" data-text-initial="Copy Book Number" className="tooltip"></span>
             <span>
                 <svg xmlSpace="preserve" viewBox="0 0 6.35 6.35" y="0" x="0" height="20" width="20" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" className="clipboard">
                     <g>

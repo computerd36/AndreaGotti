@@ -24,3 +24,11 @@ export interface Publication {
     date: string;
     isbn: string;
 }
+
+export interface Media {
+    title: string;
+    image: string;
+    imagealt: string;
+    url: string;
+    date: string;
+}

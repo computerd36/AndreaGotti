@@ -6,7 +6,7 @@ import { CopyISBNButton } from './CopyISBNButton';
 
 import { PuffLoader } from 'react-spinners';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 export interface IPublicationCardProps {
@@ -18,6 +18,21 @@ export interface IPublicationCardProps {
 export function PublicationCard(props: IPublicationCardProps) {
 
     const [isImageLoaded, setImageLoaded] = useState(false);
+    const [formattedDescription, setFormattedDescription] = useState<JSX.Element | null>(null);
+
+
+    useEffect(() => {
+        if (props.publication.description) {
+            const lines = props.publication.description.split('\n').map((line, index) => (
+                <React.Fragment key={index}>
+                    {index > 0 ? <br /> : null}
+                    <span className="new-line">{line}</span>
+                </React.Fragment>
+            ));
+            setFormattedDescription(<>{lines}</>);
+        }
+    }, [props.publication.description]);
+
 
     return (
         <div className={`publicationCard ${props.isFlipped ? 'flipped' : ''}`}>
@@ -30,10 +45,10 @@ export function PublicationCard(props: IPublicationCardProps) {
                 <div className="publicationCard-back">
                     <div className="publicationCard-info">
                         <h2>{props.publication.title}</h2>
-                        <p>{props.publication.description}</p>
+                        <p>{formattedDescription}</p>
                         <div>
                             <p>{props.publication.date}</p>
-                            <CopyISBNButton ISBN={props.publication.isbn} />
+                            {props.publication.isbn && <CopyISBNButton ISBN={props.publication.isbn} />}
                         </div>
                     </div>
                     <button className='publicationCardButton' onClick={props.onFlip}><TiArrowBack /></button>
