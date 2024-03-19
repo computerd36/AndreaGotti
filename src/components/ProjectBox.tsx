@@ -21,10 +21,12 @@ export function ProjectBox(props: IProjectBoxProps) {
                 onLoad={() => setImageLoaded(true)}
                 style={{ display: isImageLoaded ? 'block' : 'none' }}
             />
+            { isImageLoaded && 
             <div className='projectBoxLabel'>
                 <h2>{props.project.title}</h2>
                 <p>{props.project.date}</p>
             </div>
+            }
         </div>
     );
 }
