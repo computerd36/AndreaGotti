@@ -24,20 +24,22 @@ export function ProjectGalleryModal(props: ProjectGalleryModalProps) {
         };
     }, []);
 
-    
-    return (
-        <div className="modal" onClick={props.onClose}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                <div className="modal-header">
-                    <h2>{props.project.title}</h2>
-                    <a className="close-button" onClick={props.onClose}>
-                        <GrClose />
-                    </a>
-                </div>
 
-                <EmblaCarouselArtwork artworks={props.project.artworks} />
+    return (
+        <>            
+            <div className="modal" onClick={props.onClose}>
+                <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                    <div className="modal-header">
+                        <h2>{props.project.title}</h2>
+                        <a className="close-button" onClick={props.onClose}>
+                            <GrClose />
+                        </a>
+                    </div>
+
+                    <EmblaCarouselArtwork artworks={props.project.artworks} />
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 

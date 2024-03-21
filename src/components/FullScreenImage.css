@@ -1,0 +1,55 @@
+.fullScreenImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1000; 
+    padding: 0 20vw
+}
+
+.fullScreenImage img {
+    height: 100%;
+    width: auto;
+    max-width: 100vw;
+    max-height: 100vh;
+    object-fit: contain;
+    z-index: 7;
+}
+
+.fullScreenImageControls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(5px) brightness(50%) saturate(2);
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0 0 0 15px;
+}
+
+.fullScreenImageControls button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.fullScreenImage button svg {
+    color: white;
+    
+}
+
+.fullScreenImageControls button:hover svg {
+    color: var(--bg2-color);
+}

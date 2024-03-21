@@ -8,17 +8,15 @@ export function ContactPage(props: IContactPageProps) {
         <div className='page contactPage paddingPage'>
 
             <h3>Contact</h3>
-            <p>E-Mail: <a href="mailto:mechtild@van-ahlers.de">andrea@gotti.art</a> <br />
-
-                Mobile: <a href="tel:+49 151 179 510 22">+49 151 179 510 22</a>
+            <p>E-Mail: <a href="mailto:mechtild@van-ahlers.de">mail@andreagotti.art</a> <br />
             </p>
 
             
             <h3>Information according to § 5 TMG</h3>
 
             <p>Andrea Gotti <br />
-                Blücherstraße 37a <br />
-                D - 10961 Berlin</p>
+                Grimmstraße 16E <br />
+                D - 10967 Berlin</p>
 
 
 
