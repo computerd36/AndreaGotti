@@ -399,6 +399,7 @@ a:not(.navMenuContainer a) {
   grid-row: 1;
   grid-column: 1;
   z-index: 1;
+  max-width: 90vw;
 }
 
 .projectBoxLabel {
@@ -411,7 +412,7 @@ a:not(.navMenuContainer a) {
 
 
 .projectBox h2 {
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
