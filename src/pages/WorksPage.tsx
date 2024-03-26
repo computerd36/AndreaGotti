@@ -9,7 +9,6 @@ export function WorksPage(props: IWorksPageProps) {
   return (
     <div className='page vitePage'>
       <EmblaCarouselProject projects={gottiData.works as Project[]} />
-
     </div>
   );
 }

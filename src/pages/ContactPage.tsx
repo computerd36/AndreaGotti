@@ -15,8 +15,8 @@ export function ContactPage(props: IContactPageProps) {
             <h3>Information according to § 5 TMG</h3>
 
             <p>Andrea Gotti <br />
-                Grimmstraße 16E <br />
-                D - 10967 Berlin</p>
+                Möckernstraße 64 <br />
+                D - 10965 Berlin</p>
 
 
 

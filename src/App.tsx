@@ -5,7 +5,6 @@ import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import './Animations.css';
 import { RecentPage } from './pages/RecentPage';
-import { ImpressPage } from './pages/ImpressPage';
 import { VitaPage } from './pages/VitaPage';
 import { PublicationPage } from './pages/PublicationPage';
 import { WorksPage } from './pages/WorksPage';
@@ -22,7 +21,6 @@ export default function App() {
         <Route path="/vita" element={<VitaPage />} />
         <Route path="/publications" element={<PublicationPage />} />
         <Route path="/works" element={<WorksPage />} />
-        <Route path="/impress" element={<ImpressPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
 
