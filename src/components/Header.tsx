@@ -19,7 +19,7 @@ export function Header(props: HeaderProps) {
         <div className='headerContainer'>
             <div className="headerMain">
                 <Link to={"/"}><h1>ANDREA GOTTI</h1></Link>
-                <Hamburger toggled={props.isOpen} toggle={props.setOpen} color="#000000" size={25} />
+                <Hamburger toggled={props.isOpen} toggle={props.setOpen} color="#000000" size={25} label='Open Menu'/>
             </div>
             <div className="headerMenu">
                 <CSSTransition
