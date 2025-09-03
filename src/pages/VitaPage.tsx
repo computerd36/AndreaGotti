@@ -1,10 +1,7 @@
 import * as React from 'react';
-import { CopyISBNButton } from '../components/CopyISBNButton';
 
-export interface IVitaPageProps {
-}
 
-export function VitaPage(props: IVitaPageProps) {
+export function VitaPage() {
   return (
     <div className='page vitaPage paddingPage'>
 

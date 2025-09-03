@@ -6,10 +6,7 @@ import gottiData from "../content/gottiData.json";
 import { MediaCard } from '../components/MediaCard';
 
 
-export interface IPublicationPageProps {
-}
-
-export function PublicationPage(props: IPublicationPageProps) {
+export function PublicationPage() {
     const [flippedPublicationId, setFlippedPublicationId] = React.useState<number | null>(null);
 
     const handleFlip = (id: number) => {
@@ -32,7 +29,7 @@ export function PublicationPage(props: IPublicationPageProps) {
             <h1>Media</h1>
             <div className='publicationGrid'>
                 {gottiData.media.map((media: Media, index: number) => (
-                    <MediaCard 
+                    <MediaCard
                         key={index}
                         media={media}
                     />

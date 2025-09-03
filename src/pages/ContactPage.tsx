@@ -1,9 +1,4 @@
-import * as React from 'react';
-
-export interface IContactPageProps {
-}
-
-export function ContactPage(props: IContactPageProps) {
+export function ContactPage() {
     return (
         <div className='page contactPage paddingPage'>
 
@@ -11,7 +6,7 @@ export function ContactPage(props: IContactPageProps) {
             <p>E-Mail: <a href="mailto:mechtild@van-ahlers.de">mail@andreagotti.art</a> <br />
             </p>
 
-            
+
             <h3>Information according to § 5 TMG</h3>
 
             <p>Andrea Gotti <br />
@@ -26,8 +21,7 @@ export function ContactPage(props: IContactPageProps) {
             <h3>Technical contact</h3>
 
             <p>
-                Site created by <a href="https://36it.de">36it</a> <br />
-                E-Mail: <a href="mailto:mail@36it.de">mail@36it.de</a>
+                Site created by <a href="https://dpetzold.dev" target="_blank" rel="noopener noreferrer">dpetzold.dev</a> <br />
             </p>
 
         </div>

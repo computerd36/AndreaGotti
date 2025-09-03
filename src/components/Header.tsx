@@ -28,7 +28,7 @@ export function Header(props: HeaderProps) {
                     classNames="menu-animation"
                     unmountOnExit
                 >
-                    <NavMenu NavMenuitems={[ ["Works", "/works"], ["Publications", "/publications"], ["Vita", "/vita"], ["Contact", "/contact"]]} />
+                    <NavMenu NavMenuitems={[ ["Works", "/works"], ["Publications", "/publications"], ["News", "/news"], ["Vita", "/vita"]]} />
                 </CSSTransition>
             </div>
 

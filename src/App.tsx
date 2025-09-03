@@ -8,6 +8,7 @@ import { RecentPage } from './pages/RecentPage';
 import { VitaPage } from './pages/VitaPage';
 import { PublicationPage } from './pages/PublicationPage';
 import { WorksPage } from './pages/WorksPage';
+import { NewsPage } from './pages/NewsPage';
 import { ContactPage } from './pages/ContactPage';
 
 export default function App() {
@@ -21,10 +22,11 @@ export default function App() {
         <Route path="/vita" element={<VitaPage />} />
         <Route path="/publications" element={<PublicationPage />} />
         <Route path="/works" element={<WorksPage />} />
+        <Route path="/news" element={<NewsPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
 
-      <p className={"copyright"} >© Andrea Gotti 2024 | <Link to={"/contact"}>Impress</Link></p>
+      <p className={"copyright"} >© Andrea Gotti {new Date().getFullYear()} | <Link to={"/contact"}>Contact</Link></p>
     </div>
   );
 }
