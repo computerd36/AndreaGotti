@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { News } from '../types';
-import gottiData from "../content/gottiData.json";
+import newsData from "../content/news.json";
 
 export function NewsPage() {
     // Sort news by date (newest first)
     const sortedNews = React.useMemo(() => {
-        return [...gottiData.news].sort((a, b) =>
+        return [...newsData.news].sort((a, b) =>
             new Date(b.date).getTime() - new Date(a.date).getTime()
         );
     }, []);

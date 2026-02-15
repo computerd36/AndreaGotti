@@ -36,7 +36,7 @@ export interface Media {
 export interface News {
     title: string;
     description: string;
-    url: string;
+    url?: string;
     date: string;
     type: string;
 }

@@ -1,0 +1,117 @@
+backend:
+  name: github
+  repo: computerd36/AndreaGotti
+  branch: main
+  base_url: https://andreagotti-decap-proxy.andreagotti.workers.dev
+  auth_endpoint: /auth
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  # ── Works ──
+  - name: "works"
+    label: "Works"
+    editor:
+      preview: false
+    files:
+      - name: "works"
+        label: "Works"
+        file: "src/content/works.json"
+        format: "json"
+        fields:
+          - name: "works"
+            label: "Works"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            collapsed: true
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "image", label: "Cover Image", widget: "image" }
+              - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
+              - { name: "date", label: "Date Range", widget: "string", hint: "e.g. 2009 - 2024" }
+              - name: "artworks"
+                label: "Artworks"
+                widget: "list"
+                summary: "{{fields.title}} — {{fields.description}} ({{fields.date}})"
+                collapsed: true
+                fields:
+                  - { name: "title", label: "Title", widget: "string" }
+                  - { name: "size", label: "Size", widget: "string", required: false, hint: "e.g. 200cm x 240cm" }
+                  - { name: "description", label: "Medium", widget: "string", hint: "e.g. Oil on canvas, Pastel on paper" }
+                  - { name: "image", label: "Image", widget: "image" }
+                  - { name: "imagealt", label: "Image Alt Text", widget: "string" }
+                  - { name: "date", label: "Year", widget: "string" }
+
+  # ── Publications ──
+  - name: "publications"
+    label: "Publications"
+    editor:
+      preview: false
+    files:
+      - name: "publications"
+        label: "Publications"
+        file: "src/content/publications.json"
+        format: "json"
+        fields:
+          - name: "publications"
+            label: "Publications"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            collapsed: true
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - { name: "image", label: "Cover Image", widget: "image" }
+              - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
+              - { name: "isbn", label: "ISBN", widget: "string", required: false }
+              - { name: "date", label: "Date", widget: "string", hint: "e.g. 2017 or 1991 - 1999" }
+
+  # ── Media ──
+  - name: "media"
+    label: "Media"
+    editor:
+      preview: false
+    files:
+      - name: "media"
+        label: "Media"
+        file: "src/content/media.json"
+        format: "json"
+        fields:
+          - name: "media"
+            label: "Media"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            collapsed: true
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "url", label: "URL", widget: "string" }
+              - { name: "image", label: "Cover Image", widget: "image" }
+              - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
+              - { name: "date", label: "Date", widget: "string" }
+
+  # ── News ──
+  - name: "news"
+    label: "News"
+    editor:
+      preview: false
+    files:
+      - name: "news"
+        label: "News"
+        file: "src/content/news.json"
+        format: "json"
+        fields:
+          - name: "news"
+            label: "News"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            collapsed: true
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - { name: "url", label: "URL", widget: "string", required: false }
+              - { name: "date", label: "Date", widget: "string", hint: "YYYY-MM-DD format" }
+              - name: "type"
+                label: "Type"
+                widget: "select"
+                options: ["exhibition", "publication", "award", "other"]

@@ -2,7 +2,8 @@ import * as React from 'react';
 import { Media, Publication } from '../types';
 import { PublicationCard } from '../components/PublicationCard';
 
-import gottiData from "../content/gottiData.json";
+import publicationsData from "../content/publications.json";
+import mediaData from "../content/media.json";
 import { MediaCard } from '../components/MediaCard';
 
 
@@ -17,7 +18,7 @@ export function PublicationPage() {
         <div className='page publicationPage paddingPage'>
             <h1>Publications</h1>
             <div className="publicationGrid">
-                {gottiData.publications.map((publication: Publication, index: number) => (
+                {publicationsData.publications.map((publication: Publication, index: number) => (
                     <PublicationCard
                         key={index}
                         publication={publication}
@@ -28,7 +29,7 @@ export function PublicationPage() {
             </div>
             <h1>Media</h1>
             <div className='publicationGrid'>
-                {gottiData.media.map((media: Media, index: number) => (
+                {mediaData.media.map((media: Media, index: number) => (
                     <MediaCard
                         key={index}
                         media={media}

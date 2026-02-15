@@ -24,6 +24,7 @@ export default function App() {
         <Route path="/works" element={<WorksPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="*" element={<RecentPage />} />
       </Routes>
 
       <p className={"copyright"} >© Andrea Gotti {new Date().getFullYear()} | <Link to={"/contact"}>Contact</Link></p>
