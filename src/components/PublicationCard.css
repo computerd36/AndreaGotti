@@ -9,7 +9,7 @@
     width: 250px;
     height: 300px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
 .publicationCard-inner {
@@ -35,7 +35,7 @@
 .publicationCard-front {
     color: #fff;
     display: grid;
-    border-radius: 15px;
+    border-radius: 4px;
     border: 1px solid black;
     transform: rotateY(0deg);
 }
@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    border-radius: 15px;
+    border-radius: 4px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -59,10 +59,10 @@
 
 .publicationCard-back {
     color: #fff;
-    display: grid;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 4px;
     transform: rotateY(180deg);
 }
 
@@ -71,7 +71,6 @@
     grid-row: 2;
     grid-column: 2;
     z-index: 1;
-
 }
 
 .publicationCardButton {
@@ -83,11 +82,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto 0 0 auto;
-    border-radius: 15px 0 15px 0;
+    cursor: pointer;
 }
 
 .publicationCard-front .publicationCardButton {
+    margin: auto 0 0 auto;
+    border-radius: 4px 0 4px 0;
     color: var(--bg-color);
     backdrop-filter: blur(10px) brightness(80%) saturate(2);
 }
@@ -96,61 +96,73 @@
     color: var(--bg2-color);
 }
 
-
 .publicationCard-back .publicationCardButton {
     color: var(--text-color);
-    border-left: 1px solid var(--text-color);
-    border-top: 1px solid var(--text-color);
+    margin-left: auto;
+    flex-shrink: 0;
 }
 
 .publicationCard-back .publicationCardButton:hover {
     color: var(--bg2-color);
-
 }
 
 .publicationCard-info {
-    grid-row: 2;
-    grid-column: 2;
-    z-index: 1;
     display: flex;
     flex-direction: column;
-
-
-
-    padding: 0.5rem;
+    padding: 0.75rem;
     color: var(--text-color);
-
-    height: 100%;
+    flex: 1;
+    min-height: 0;
 }
 
 .publicationCard-info h2 {
-    font-size: 1.5rem;
-    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
     padding: 0;
-    text-align: center;
-    margin-bottom: 1rem;
+    line-height: 1.3;
 }
 
-.publicationCard-info p {
-    font-size: 0.8rem;
+.publicationCard-info .publicationDescription {
+    font-size: 0.75rem;
     margin: 0;
     padding: 0;
     text-align: left;
-    white-space: pre-line;
+    line-height: 1.5;
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
 }
 
-.publicationCard-info p .new-line {
+.publicationCard-info .publicationDescription .new-line {
     display: block;
-    margin-top: -0.5rem;
+    margin-bottom: 0.15rem;
 }
 
-.publicationCard-info div {
+.publicationCard-info .publicationActions {
     display: flex;
-    justify-content: space-around;
+    gap: 0.5rem;
+    justify-content: flex-start;
     align-items: center;
-    margin: 1.5rem 0;
+    margin-top: 0.5rem;
+    flex-shrink: 0;
 }
 
+.publicationCard-info .publicationMeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--bg2-color);
+    flex-shrink: 0;
+}
+
+.publicationCard-info .publicationMeta p {
+    font-size: 0.7rem;
+    margin: 0;
+    opacity: 0.7;
+}
 
 .publicationGrid {
     display: grid;

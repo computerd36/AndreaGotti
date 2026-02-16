@@ -23,6 +23,7 @@ export interface Publication {
     url?: string;
     date: string;
     isbn: string;
+    shop?: string;
 }
 
 export interface Media {
@@ -37,6 +38,8 @@ export interface News {
     title: string;
     description: string;
     url?: string;
+    image?: string;
+    imagealt?: string;
     date: string;
     type: string;
 }

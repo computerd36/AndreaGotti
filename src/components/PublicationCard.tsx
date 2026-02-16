@@ -3,6 +3,7 @@ import './PublicationCard.css';
 import { AiFillInfoCircle } from "react-icons/ai";
 import { TiArrowBack } from "react-icons/ti";
 import { CopyISBNButton } from './CopyISBNButton';
+import { ShopButton } from './ShopButton';
 
 import { PuffLoader } from 'react-spinners';
 
@@ -25,7 +26,6 @@ export function PublicationCard(props: IPublicationCardProps) {
         if (props.publication.description) {
             const lines = props.publication.description.split('\n').map((line, index) => (
                 <React.Fragment key={index}>
-                    {index > 0 ? <br /> : null}
                     <span className="new-line">{line}</span>
                 </React.Fragment>
             ));
@@ -45,13 +45,18 @@ export function PublicationCard(props: IPublicationCardProps) {
                 <div className="publicationCard-back">
                     <div className="publicationCard-info">
                         <h2>{props.publication.title}</h2>
-                        <p>{formattedDescription}</p>
-                        <div>
+                        <p className="publicationDescription">{formattedDescription}</p>
+                        {(props.publication.isbn || props.publication.shop) && (
+                            <div className="publicationActions">
+                                {props.publication.isbn && <CopyISBNButton ISBN={props.publication.isbn} />}
+                                {props.publication.shop && <ShopButton url={props.publication.shop} />}
+                            </div>
+                        )}
+                        <div className="publicationMeta">
                             <p>{props.publication.date}</p>
-                            {props.publication.isbn && <CopyISBNButton ISBN={props.publication.isbn} />}
+                            <button className='publicationCardButton' onClick={props.onFlip}><TiArrowBack /></button>
                         </div>
                     </div>
-                    <button className='publicationCardButton' onClick={props.onFlip}><TiArrowBack /></button>
                 </div>
             </div>
         </div>

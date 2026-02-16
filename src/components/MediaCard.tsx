@@ -16,7 +16,8 @@ export function MediaCard(props: IMediaCardProps) {
                 <MdOutlinePlayCircle />
 
             </div >
-            <p>{props.media.title} ({props.media.date})</p>
+            <p>{props.media.title}</p>
+            <p>{props.media.date}</p>
         </a>
 
     );

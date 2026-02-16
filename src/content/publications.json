@@ -6,7 +6,8 @@
       "image": "/images/publications/1.webp",
       "imagealt": "Showing the cover of the publication",
       "isbn": "88-87582-18-1",
-      "date": "1991 - 1999"
+      "date": "1991 - 1999",
+      "shop": "https://www.lineadombra.it/libri/andrea-gotti-dipinti/"
     },
     {
       "title": "GOTTI, Andrea Gotti",
@@ -65,11 +66,11 @@
       "date": "2017"
     },
     {
-      "title": "La Forma Infinita. Sulla Pittura di Andrea Gotti",
-      "description": "The Infinte Form. On Andrea Gotti's Painting\nAuthor: Simone Furlani and Alessandro Berinetto",
+      "title": "La forma infinita. Sulla pittura di Andrea Gotti",
+      "description": "Edited by Alessandro Bertinetto and Simone Furlani\nTexts curated by Tamar Levi\nPublished by FrancoAngeli, \"Filosofia\" series\nAvailable in print and Open Access (Green)",
       "image": "/images/publications/9.webp",
-      "imagealt": "Showing the cover of the publication",
-      "isbn": "978-88-351-8757-8",
+      "imagealt": "Book cover of La forma infinita. Sulla pittura di Andrea Gotti, published by FrancoAngeli.",
+      "isbn": "",
       "date": "2026"
     }
   ]
