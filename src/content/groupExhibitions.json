@@ -2,7 +2,9 @@
   "groupExhibitions": [
     {
       "year": "2014",
-      "entries": ["\"Attorno a Vermeer\", Palazzo Fava, Bologna, Italy"]
+      "entries": [
+        "\"Attorno a Vermeer\", Palazzo Fava, Bologna, Italy"
+      ]
     },
     {
       "year": "2008 - 2009",
@@ -15,11 +17,15 @@
     },
     {
       "year": "2008",
-      "entries": ["\"Arnaldo Pomodoro Foundation Prize\", Arnaldo Pomodoro Foundation, Milan, Italy"]
+      "entries": [
+        "\"Arnaldo Pomodoro Foundation Prize\", Arnaldo Pomodoro Foundation, Milan, Italy"
+      ]
     },
     {
       "year": "2007",
-      "entries": ["\"Animamix Biennial: From Modernity to Eternity\", MoCA Shanghai"]
+      "entries": [
+        "\"Animamix Biennial: From Modernity to Eternity\", MoCA Shanghai"
+      ]
     },
     {
       "year": "2006",
@@ -30,19 +36,27 @@
     },
     {
       "year": "2005",
-      "entries": ["\"BJ Beijing Biennale 2005\", Beijing, China"]
+      "entries": [
+        "\"BJ Beijing Biennale 2005\", Beijing, China"
+      ]
     },
     {
       "year": "2002",
-      "entries": ["\"Palazzo Sarcinelli 18 anni di attività\", Conegliano, Treviso, Italy (Catalog \"Linea D'Ombra\", Curator: Marco Goldin)"]
+      "entries": [
+        "\"Palazzo Sarcinelli 18 anni di attività\", Conegliano, Treviso, Italy (Catalog \"Linea D'Ombra\", Curator: Marco Goldin)"
+      ]
     },
     {
       "year": "1999",
-      "entries": ["\"Sulla Pittura: Artisti Italiani Sotto i Quarant'anni\", Curator: Marco Goldin, Palazzo Sarcinelli, Conegliano, Treviso, Italy"]
+      "entries": [
+        "\"Sulla Pittura: Artisti Italiani Sotto i Quarant'anni\", Curator: Marco Goldin, Palazzo Sarcinelli, Conegliano, Treviso, Italy"
+      ]
     },
     {
       "year": "1998",
-      "entries": ["\"Una Donazione per un Nuovo Museo\", Curator: Marco Goldin, Palazzo Sarcinelli, Conegliano, Treviso, Italy"]
+      "entries": [
+        "\"Una Donazione per un Nuovo Museo\", Curator: Marco Goldin, Palazzo Sarcinelli, Conegliano, Treviso, Italy"
+      ]
     },
     {
       "year": "1997",
@@ -64,7 +78,15 @@
     },
     {
       "year": "1984",
-      "entries": ["Fondazione Bevilacqua La Masa, Venice, Italy"]
+      "entries": [
+        "Fondazione Bevilacqua La Masa, Venice, Italy"
+      ]
+    },
+    {
+      "year": "2025",
+      "entries": [
+        "Confini da Gauguin a Hopper. Canto con variazioni 11.10.2025 — 12.04.2026 Mostra a cura di Marco Goldin Organizzata da ERPAC e Linea d’ombra"
+      ]
     }
   ]
 }
