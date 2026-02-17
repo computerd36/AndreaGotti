@@ -1,0 +1,65 @@
+{
+  "soloExhibitions": [
+    {
+      "year": "2013",
+      "entries": ["Museo Epper, Ascona, Switzerland"]
+    },
+    {
+      "year": "2009",
+      "entries": ["Galerie Tammen, Berlin, Germany"]
+    },
+    {
+      "year": "2008",
+      "entries": ["Officina ltd., Beijing, China"]
+    },
+    {
+      "year": "2006",
+      "entries": ["Beijing Tokyo Art Project Gallery, Multimedia Installation with FM3 Group, Beijing, China"]
+    },
+    {
+      "year": "2005",
+      "entries": ["Galleria Paolo Tonin Arte Contemporanea, Turin, Italy"]
+    },
+    {
+      "year": "2004",
+      "entries": ["Galeria Monumental, Lisbon, Portugal"]
+    },
+    {
+      "year": "2003",
+      "entries": [
+        "Galeria Luis Gurriaran, Madrid, Spain",
+        "Galleria Compagnia del Disegno, Milan, Italy",
+        "Galerie 26, Oisterwijk, The Netherlands"
+      ]
+    },
+    {
+      "year": "2002",
+      "entries": [
+        "Ex Municipio, Castagnola, Lugano, Switzerland",
+        "Galerie Carzaniga+Ueker, Basel, Switzerland"
+      ]
+    },
+    {
+      "year": "2001",
+      "entries": [
+        "Galeria Luis Gurriaran, Madrid, Spain",
+        "Contemporary Art Museum, Su Logu de S'iscultura, Tortolì, Nuoro, Italy",
+        "Time in Jazz, Museo del Vino, Berchidda, Sassari, Italy",
+        "Gotti, Opere 1991-2000, Palazzo Sarcinelli, Conegliano, Treviso, Italy",
+        "Galerie Apicella, Cologne, Germany"
+      ]
+    },
+    {
+      "year": "1999",
+      "entries": ["Opere 1991-1999, Casa dei Carraresi, Treviso, Italy"]
+    },
+    {
+      "year": "1995",
+      "entries": ["Galleria La Polena, Genoa, Italy"]
+    },
+    {
+      "year": "1993",
+      "entries": ["Galleria Paolo Tonin, Turin, Italy"]
+    }
+  ]
+}

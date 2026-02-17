@@ -5,6 +5,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { ProjectBox } from './ProjectBox';
 import { useState, useCallback, useEffect } from 'react';
 import { DotButton } from './EmblaCarouselDots';
+import { PrevButton, NextButton } from './EmblaCarouselArrows';
 import ProjectGalleryModal from './ProjectGalleryModal';
 
 export interface IEmblaCarouselProjectProps {
@@ -90,16 +91,20 @@ export function EmblaCarouselProject(props: IEmblaCarouselProjectProps) {
                     ))}
                 </div>
             </div>
-            <div className="embla__dots">
-                {scrollSnaps.map((_, index) => (
-                    <DotButton
-                        key={index}
-                        onClick={() => scrollTo(index)}
-                        className={'embla__dot'.concat(
-                            index === selectedIndex ? ' embla__dot--selected' : ''
-                        )}
-                    />
-                ))}
+            <div className="embla__navigation">
+                <PrevButton onClick={scrollPrev} disabled={prevBtnDisabled} />
+                <div className="embla__dots">
+                    {scrollSnaps.map((_, index) => (
+                        <DotButton
+                            key={index}
+                            onClick={() => scrollTo(index)}
+                            className={'embla__dot'.concat(
+                                index === selectedIndex ? ' embla__dot--selected' : ''
+                            )}
+                        />
+                    ))}
+                </div>
+                <NextButton onClick={scrollNext} disabled={nextBtnDisabled} />
             </div>
 
         </>

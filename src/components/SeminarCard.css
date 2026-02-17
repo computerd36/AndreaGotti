@@ -1,0 +1,101 @@
+.seminarList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.seminarCard {
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid var(--bg2-color);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.seminarCard-imageWrap {
+    flex-shrink: 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg2-color);
+    overflow: hidden;
+}
+
+.seminarCard-imageWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.seminarCard-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 1.25rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.seminarCard-date {
+    font-size: 0.7rem;
+    margin: 0;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.seminarCard-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.seminarCard-description {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.85;
+}
+
+.seminarCard-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-top: auto;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.seminarCard-link:hover {
+    opacity: 1;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 550px) {
+    .seminarCard {
+        flex-direction: column;
+    }
+
+    .seminarCard-imageWrap {
+        width: 100%;
+        max-height: 220px;
+    }
+
+    .seminarCard-body {
+        padding: 0.75rem 1rem;
+    }
+}

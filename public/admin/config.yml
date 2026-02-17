@@ -107,6 +107,81 @@ collections:
               - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
               - { name: "date", label: "Date", widget: "string" }
 
+  # ── Seminars ──
+  - name: "seminars"
+    label: "Seminars"
+    editor:
+      preview: false
+    files:
+      - name: "seminars"
+        label: "Seminars"
+        file: "src/content/seminars.json"
+        format: "json"
+        fields:
+          - name: "seminars"
+            label: "Seminars"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            collapsed: true
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text", required: false }
+              - { name: "url", label: "URL", widget: "string", required: false }
+              - name: "image"
+                label: "Image"
+                widget: "image"
+                required: false
+                media_folder: "public/images/media"
+                public_folder: "/images/media"
+              - { name: "imagealt", label: "Image Alt Text", widget: "string", required: false }
+              - { name: "date", label: "Date", widget: "string" }
+
+  # ── Solo Exhibitions ──
+  - name: "soloExhibitions"
+    label: "Solo Exhibitions"
+    editor:
+      preview: false
+    files:
+      - name: "soloExhibitions"
+        label: "Solo Exhibitions"
+        file: "src/content/soloExhibitions.json"
+        format: "json"
+        fields:
+          - name: "soloExhibitions"
+            label: "Solo Exhibitions"
+            widget: "list"
+            summary: "{{fields.year}}"
+            collapsed: true
+            fields:
+              - { name: "year", label: "Year", widget: "string", hint: "e.g. 2013 or 2008 - 2009" }
+              - name: "entries"
+                label: "Entries"
+                widget: "list"
+                field: { name: "entry", label: "Entry", widget: "string" }
+
+  # ── Selected Group Exhibitions ──
+  - name: "groupExhibitions"
+    label: "Selected Group Exhibitions"
+    editor:
+      preview: false
+    files:
+      - name: "groupExhibitions"
+        label: "Selected Group Exhibitions"
+        file: "src/content/groupExhibitions.json"
+        format: "json"
+        fields:
+          - name: "groupExhibitions"
+            label: "Selected Group Exhibitions"
+            widget: "list"
+            summary: "{{fields.year}}"
+            collapsed: true
+            fields:
+              - { name: "year", label: "Year", widget: "string", hint: "e.g. 2014 or 2008 - 2009" }
+              - name: "entries"
+                label: "Entries"
+                widget: "list"
+                field: { name: "entry", label: "Entry", widget: "string" }
+
   # ── News ──
   - name: "news"
     label: "News"

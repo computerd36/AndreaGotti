@@ -1,10 +1,12 @@
 import * as React from 'react';
-import { Media, Publication } from '../types';
+import { Media, Publication, Seminar } from '../types';
 import { PublicationCard } from '../components/PublicationCard';
 
 import publicationsData from "../content/publications.json";
 import mediaData from "../content/media.json";
+import seminarsData from "../content/seminars.json";
 import { MediaCard } from '../components/MediaCard';
+import { SeminarCard } from '../components/SeminarCard';
 
 
 export function PublicationPage() {
@@ -24,6 +26,15 @@ export function PublicationPage() {
                         publication={publication}
                         isFlipped={flippedPublicationId === index}
                         onFlip={() => handleFlip(index)}
+                    />
+                ))}
+            </div>
+            <h1>Seminars</h1>
+            <div className='seminarList'>
+                {seminarsData.seminars.map((seminar: Seminar, index: number) => (
+                    <SeminarCard
+                        key={index}
+                        seminar={seminar}
                     />
                 ))}
             </div>

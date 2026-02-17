@@ -34,6 +34,20 @@ export interface Media {
     date: string;
 }
 
+export interface Seminar {
+    title: string;
+    description?: string;
+    image?: string;
+    imagealt?: string;
+    url?: string;
+    date: string;
+}
+
+export interface ExhibitionYear {
+    year: string;
+    entries: string[];
+}
+
 export interface News {
     title: string;
     description: string;

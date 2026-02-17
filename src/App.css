@@ -27,7 +27,7 @@ body {
   padding: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Raleway Variable', sans-serif;
+  font-family: 'Archivo Variable', sans-serif;
   overflow-y: auto;
   scrollbar-gutter: stable;
 
@@ -295,12 +295,17 @@ a:not(.navMenuContainer a) {
 
 
 
+.embla__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  bottom: -20px;
+}
+
 .embla__dots {
   z-index: 1;
-  bottom: -20px;
-  position: relative;
-  left: 0;
-  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;

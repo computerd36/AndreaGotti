@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
 // import '@fontsource-variable/plus-jakarta-sans'
-// import '@fontsource-variable/archivo'
-import '@fontsource-variable/raleway'
+import '@fontsource-variable/archivo'
+// import '@fontsource-variable/raleway'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
