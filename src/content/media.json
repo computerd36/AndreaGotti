@@ -6,6 +6,13 @@
       "image": "/images/media/art_furlani_gotti.webp",
       "imagealt": "Showing the cover of the media",
       "date": "Feb 2023"
+    },
+    {
+      "title": "Testmedia",
+      "image": "/images/media/dev-team.png",
+      "url": "www.egenus.org",
+      "imagealt": "alt text",
+      "date": "22.03.2025"
     }
   ]
 }
