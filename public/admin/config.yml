@@ -30,7 +30,7 @@ collections:
               - name: "image"
                 label: "Cover Image"
                 widget: "image"
-                media_folder: "public/images/projects"
+                media_folder: "/public/images/projects"
                 public_folder: "/images/projects"
               - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
               - { name: "date", label: "Date Range", widget: "string", hint: "e.g. 2009 - 2024" }
@@ -46,7 +46,7 @@ collections:
                   - name: "image"
                     label: "Image"
                     widget: "image"
-                    media_folder: "public/images/projects"
+                    media_folder: "/public/images/projects"
                     public_folder: "/images/projects"
                   - { name: "imagealt", label: "Image Alt Text", widget: "string" }
                   - { name: "date", label: "Year", widget: "string" }
@@ -73,7 +73,7 @@ collections:
               - name: "image"
                 label: "Cover Image"
                 widget: "image"
-                media_folder: "public/images/publications"
+                media_folder: "/public/images/publications"
                 public_folder: "/images/publications"
               - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
               - { name: "isbn", label: "ISBN", widget: "string", required: false }
@@ -102,7 +102,7 @@ collections:
               - name: "image"
                 label: "Cover Image"
                 widget: "image"
-                media_folder: "public/images/media"
+                media_folder: "/public/images/media"
                 public_folder: "/images/media"
               - { name: "imagealt", label: "Cover Image Alt Text", widget: "string" }
               - { name: "date", label: "Date", widget: "string" }
@@ -131,7 +131,7 @@ collections:
                 label: "Image"
                 widget: "image"
                 required: false
-                media_folder: "public/images/media"
+                media_folder: "/public/images/media"
                 public_folder: "/images/media"
               - { name: "imagealt", label: "Image Alt Text", widget: "string", required: false }
               - { name: "date", label: "Date", widget: "string" }
@@ -205,7 +205,7 @@ collections:
                 label: "Image"
                 widget: "image"
                 required: false
-                media_folder: "public/images/news"
+                media_folder: "/public/images/news"
                 public_folder: "/images/news"
               - { name: "imagealt", label: "Image Alt Text", widget: "string", required: false }
               - { name: "url", label: "URL", widget: "string", required: false }
