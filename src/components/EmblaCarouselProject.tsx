@@ -84,8 +84,8 @@ export function EmblaCarouselProject(props: IEmblaCarouselProjectProps) {
            
             <div className="embla" ref={emblaRef}>
                 <div className="embla__container">
-                    {props.projects.map((project: Project) => (
-                        <div className="embla__slide" key={project.title} onClick={() => handleProjectClick(project)}>
+                    {props.projects.map((project: Project, index: number) => (
+                        <div className="embla__slide" key={project.title + index} onClick={() => handleProjectClick(project)}>
                             <ProjectBox project={project}/>
                         </div>
                     ))}

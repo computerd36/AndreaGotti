@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { ImageBox } from './ImageBox';
 import { Artwork } from '../types';
@@ -14,36 +14,29 @@ export function EmblaCarouselArtwork(props: IEmblaCarouselArtworkProps) {
 
     const [prevBtnDisabled, setPrevBtnDisabled] = useState(true)
     const [nextBtnDisabled, setNextBtnDisabled] = useState(true)
-    const [selectedIndex, setSelectedIndex] = useState(0)
-    const [scrollSnaps, setScrollSnaps] = useState<number[]>([])
 
     const scrollPrev = useCallback(
-        () => emblaApi && emblaApi.scrollPrev(),
+        () => emblaApi?.scrollPrev(),
         [emblaApi]
     )
     const scrollNext = useCallback(
-        () => emblaApi && emblaApi.scrollNext(),
+        () => emblaApi?.scrollNext(),
         [emblaApi]
     )
 
-    const onInit = useCallback((emblaApi: EmblaCarouselType) => {
-        setScrollSnaps(emblaApi.scrollSnapList())
-    }, [])
-
     const onSelect = useCallback((emblaApi: EmblaCarouselType) => {
-        setSelectedIndex(emblaApi.selectedScrollSnap())
         setPrevBtnDisabled(!emblaApi.canScrollPrev())
         setNextBtnDisabled(!emblaApi.canScrollNext())
     }, [])
 
-    const handleKeyPress = (e: KeyboardEvent) => {
-        if (e.key === 'ArrowLeft' && !prevBtnDisabled) {
-            scrollPrev();
-        } else if (e.key === 'ArrowRight' && !nextBtnDisabled) {
-            scrollNext();
-        }
-    };
     useEffect(() => {
+        const handleKeyPress = (e: KeyboardEvent) => {
+            if (e.key === 'ArrowLeft' && !prevBtnDisabled) {
+                scrollPrev();
+            } else if (e.key === 'ArrowRight' && !nextBtnDisabled) {
+                scrollNext();
+            }
+        };
         document.addEventListener('keydown', handleKeyPress);
         return () => {
             document.removeEventListener('keydown', handleKeyPress);
@@ -53,18 +46,16 @@ export function EmblaCarouselArtwork(props: IEmblaCarouselArtworkProps) {
     useEffect(() => {
         if (!emblaApi) return
 
-        onInit(emblaApi)
         onSelect(emblaApi)
-        emblaApi.on('reInit', onInit)
         emblaApi.on('reInit', onSelect)
         emblaApi.on('select', onSelect)
-    }, [emblaApi, onInit, onSelect])
+    }, [emblaApi, onSelect])
 
     return (
         <div className="embla" ref={emblaRef}>
             <div className="embla__container">
-                {props.artworks.map((artwork: Artwork) => (
-                    <div className="embla__slide" key={artwork.title}>
+                {props.artworks.map((artwork: Artwork, index: number) => (
+                    <div className="embla__slide" key={artwork.title + index}>
                         <ImageBox artwork={artwork} />
                     </div>
                 ))}
@@ -73,6 +64,6 @@ export function EmblaCarouselArtwork(props: IEmblaCarouselArtworkProps) {
                 <PrevButton onClick={scrollPrev} disabled={prevBtnDisabled} />
                 <NextButton onClick={scrollNext} disabled={nextBtnDisabled} />
             </div>
-        </div >
+        </div>
     );
 }

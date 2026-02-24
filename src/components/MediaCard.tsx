@@ -7,9 +7,15 @@ export interface IMediaCardProps {
     media: Media;
 }
 
+function normalizeUrl(url: string): string {
+    if (!url) return '#';
+    if (url.startsWith('http://') || url.startsWith('https://')) return url;
+    return 'https://' + url;
+}
+
 export function MediaCard(props: IMediaCardProps) {
     return (
-        <a href={props.media.url} target='_blank' className='mediaCardLink'>
+        <a href={normalizeUrl(props.media.url)} target='_blank' rel='noopener noreferrer' className='mediaCardLink'>
             <div className='mediaCard'>
 
                 <img src={props.media.image} alt={props.media.imagealt} />

@@ -29,10 +29,10 @@
     padding: 0.5rem 1rem;
 
     position: absolute;
-    top: 3%;
-    left: 5%;
-    right: 5%;
-    bottom: 3%;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
 
     z-index: 6;
 
@@ -40,12 +40,21 @@
     background: var(--bg-color);
 
     border: 1px solid var(--bg2-color);
-
     border-radius: 5px;
 
     display: flex;
     flex-direction: column;
     overflow: hidden;
+}
+
+/* On large screens, constrain the modal and add visible margin */
+@media (min-width: 1600px) {
+    .modal-content {
+        top: 2%;
+        left: 3%;
+        right: 3%;
+        bottom: 2%;
+    }
 }
 
 .modal-content > .embla {

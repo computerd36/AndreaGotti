@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { EmblaCarouselArtwork } from './EmblaCarouselArtwork';
-import { Artwork, Project } from '../types';
+import { Project } from '../types';
 import { GrClose } from "react-icons/gr";
 
 import './ProjectGalleryModal.css';
@@ -41,6 +41,6 @@ export function ProjectGalleryModal(props: ProjectGalleryModalProps) {
             </div>
         </>
     );
-};
+}
 
 export default ProjectGalleryModal;

@@ -27,11 +27,11 @@ export function VitaPage() {
 
       <div className="exhibitions">
         <h1>Solo Exhibitions</h1>
-        {soloData.soloExhibitions.map((group: ExhibitionYear) => (
-          <ul key={group.year}>
+        {soloData.soloExhibitions.map((group: ExhibitionYear, index: number) => (
+          <ul key={group.year + index}>
             <p>{group.year}</p>
             {group.entries.map((entry, i) => (
-              <li key={i}>{entry}</li>
+              <li key={entry + i}>{entry}</li>
             ))}
           </ul>
         ))}
@@ -41,11 +41,11 @@ export function VitaPage() {
         <br />
 
         <h1>Selected Group Exhibitions</h1>
-        {groupData.groupExhibitions.map((group: ExhibitionYear) => (
-          <ul key={group.year}>
+        {groupData.groupExhibitions.map((group: ExhibitionYear, index: number) => (
+          <ul key={group.year + index}>
             <p>{group.year}</p>
             {group.entries.map((entry, i) => (
-              <li key={i}>{entry}</li>
+              <li key={entry + i}>{entry}</li>
             ))}
           </ul>
         ))}
