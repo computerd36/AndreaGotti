@@ -485,6 +485,14 @@
           "image": "/images/projects/japanese/2020_japanese_chineseLandscape_pastelonpaper21x29,7.webp",
           "imagealt": "Drawing of a chinese landscape",
           "date": "2020"
+        },
+        {
+          "image": "/images/projects/interior-oil-on-linen-cm-200x360-year-2015n.png",
+          "title": "Ancient Japanese interior ",
+          "description": "oil on linen",
+          "size": "cm 200x360",
+          "date": "2015",
+          "imagealt": "Ancient Japanese interior "
         }
       ]
     }
