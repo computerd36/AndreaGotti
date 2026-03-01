@@ -136,6 +136,22 @@ collections:
               - { name: "imagealt", label: "Image Alt Text", widget: "string", required: false }
               - { name: "date", label: "Date", widget: "string" }
 
+  # ── Biography ──
+  - name: "biography"
+    label: "Biography"
+    editor:
+      preview: false
+    files:
+      - name: "biography"
+        label: "Biography"
+        file: "src/content/biography.json"
+        format: "json"
+        fields:
+          - name: "biography"
+            label: "Biography"
+            widget: "text"
+            hint: "Use newlines to separate paragraphs"
+
   # ── Solo Exhibitions ──
   - name: "soloExhibitions"
     label: "Solo Exhibitions"
