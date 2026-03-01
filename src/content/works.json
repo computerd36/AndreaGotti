@@ -485,6 +485,14 @@
           "image": "/images/projects/japanese/2020_japanese_chineseLandscape_pastelonpaper21x29,7.webp",
           "imagealt": "Drawing of a chinese landscape",
           "date": "2020"
+        },
+        {
+          "title": "Testupload",
+          "size": "1cm x 1cm",
+          "description": "Oil on metal",
+          "image": "/images/projects/bildschirmfoto-2024-05-29-um-16.49.55.png",
+          "imagealt": "Alt text",
+          "date": "2026"
         }
       ]
     }
