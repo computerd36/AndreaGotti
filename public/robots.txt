@@ -1,2 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /admin
+Disallow: /admin/
+Disallow: /admin/index.html
+
+Sitemap: https://andreagotti.art/sitemap.xml
