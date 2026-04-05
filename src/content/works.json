@@ -495,6 +495,20 @@
           "image": "/images/ocean-scape-1-oil-on-linen-cm-150x200-year-2018-copia-2-.png"
         }
       ]
+    },
+    {
+      "title": "Étretat  ",
+      "image": "/images/etretat-8-oil-on-canvas-cm-57x75-year-2025.png",
+      "artworks": [
+        {
+          "title": "Étretat  8",
+          "size": "cm 57x75",
+          "description": "oil on canvas",
+          "date": "2025",
+          "imagealt": "seascape of Étretat ( France)",
+          "image": "/images/etretat-8-oil-on-canvas-cm-57x75-year-2025.png"
+        }
+      ]
     }
   ]
 }
