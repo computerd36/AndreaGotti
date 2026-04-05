@@ -507,6 +507,22 @@
           "date": "2025",
           "imagealt": "seascape of Étretat ( France)",
           "image": "/images/etretat-8-oil-on-canvas-cm-57x75-year-2025.png"
+        },
+        {
+          "title": "Étretat 2",
+          "size": "Étretat 2",
+          "description": "oil on canvas",
+          "date": "2025",
+          "imagealt": "seascape of Étretat ",
+          "image": "/images/étretat-2-oil-on-canvas-cm-30x30-2025-.jpeg"
+        },
+        {
+          "imagealt": "seascape of Étretat ",
+          "date": "2025",
+          "description": "oil on canvas",
+          "size": "cm 30x30",
+          "title": "Étretat 3",
+          "image": "/images/étretat-3-oil-on-canvas-cm-30x30-2025-.jpeg"
         }
       ]
     }
