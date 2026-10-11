@@ -1,12 +1,17 @@
 {
   "seminars": [
     {
-      "title": "Filosofia della pittura, oggi (a partire dai dipinti di Andrea Gotti)",
-      "description": "Seminar with Alessandro Bertinetto (University of Turin) and Simone Furlani (University of Udine) on the philosophical reflection on painting through the works of Andrea Gotti, some currently exhibited in 'Confini. Da Gauguin a Hopper' at Villa Manin, within the framework of GO!2025. Held at Aula Magna, Polo Santa Chiara di Gorizia. Online attendance available upon request.",
+      "url": "https://www.dfe.unito.it/do/avvisi.pl/Show?_id=ohh5",
+      "title": "ART - Furlani/Gotti",
+      "imagealt": "Showing the cover of the media",
+      "date": "Feb 2023",
+      "image": "/images/art-aesthetics-research-torino-philosophical-seminar-simone-furlani-university-of-udine-andrea-gotti-berlin-.png"
+    },
+    {
       "url": "",
-      "image": "",
-      "imagealt": "Poster of the seminar Filosofia della pittura, oggi, held on 3 February 2026 at Aula Magna, Polo Santa Chiara di Gorizia.",
-      "date": "Feb 2026"
+      "title": ".",
+      "date": ".",
+      "image": "/images/seminar-2026.png"
     }
   ]
 }
