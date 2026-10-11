@@ -1,24 +1,10 @@
 {
   "news": [
     {
-      "title": "Two Works Featured in 'Confini da Gauguin a Hopper' Exhibition",
-      "description": "Two artworks are displayed in the major exhibition 'Confini da Gauguin a Hopper - Canto con variazioni' curated by Marco Goldin and organized by Erpac and Linea d'ombra at Villa Manin di Passariano (UD). Exhibition runs from October 11, 2025 to April 12, 2026.",
-      "url": "https://www.villamanin.it/en/evento/confini-da-gauguin-a-hopper/",
-      "date": "2025-10-11",
-      "type": "exhibition"
-    },
-    {
       "title": "New Publication: 'La Forma Infinita. Sulla Pittura di Andrea Gotti'",
       "description": "Upcoming release of the book 'La Forma Infinita. Sulla Pittura di Andrea Gotti' (The Infinite Form. On Andrea Gotti's Painting) by Simone Furlani and Alessandro Berinetto, scheduled for 2026.",
       "date": "2026-10-11",
       "type": "publication"
-    },
-    {
-      "title": "Filosofia della pittura, oggi (a partire dai dipinti di Andrea Gotti)",
-      "description": "Seminar with Alessandro Bertinetto (University of Turin) and Simone Furlani (University of Udine) on the philosophical reflection on painting through the works of Andrea Gotti, some currently exhibited in 'Confini. Da Gauguin a Hopper' at Villa Manin, within the framework of GO!2025. Held at Aula Magna, Polo Santa Chiara di Gorizia. Online attendance available upon request.",
-      "url": "mailto:simone.furlani@uniud.it",
-      "date": "2026-02-03",
-      "type": "seminar"
     }
   ]
 }
